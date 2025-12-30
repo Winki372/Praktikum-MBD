@@ -8,3 +8,13 @@
 > - Sistem Penjualan Tiket Event
 
 ##
+Komponen Wajib Instalasi:
+- ERD dan Relasi Basis Data
+- Penjelasan Aturan Bisnis
+- Storec Procedure Utama
+- Stored Procedure Helper(minimal 3)
+- Cursor
+- Perulangan dan Percabangan(IF, CASE< LOOP)
+- Dynamic SQL
+- UDF(User Defined Function)
+- Trigger
