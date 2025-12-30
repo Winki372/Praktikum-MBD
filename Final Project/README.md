@@ -1,5 +1,5 @@
 ##
-[!TIPS]
+[!NOTE]
 > Terdapat beberapa piliham topik final project:
 > Sistem Penjualan Toko Retail(POS)
 > Sistem Perpustkaan
