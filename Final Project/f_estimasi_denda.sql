@@ -1,4 +1,3 @@
-
 CREATE DEFINER=`root`@`localhost` FUNCTION `f_estimasi_denda`( 
     p_tgl_jatuh_tempo DATE,  
     p_tgl_kembali DATE 
