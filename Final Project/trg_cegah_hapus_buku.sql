@@ -1,4 +1,6 @@
-CREATE DEFINER=`root`@`localhost` TRIGGER `trg_cegah_hapus_buku` BEFORE DELETE ON `buku` FOR EACH ROW BEGIN
+CREATE TRIGGER `trg_cegah_hapus_buku`
+    BEFORE DELETE ON `buku` 
+    FOR EACH ROW BEGIN
     DECLARE v_buku_dipinjam INT;
 
     IF OLD.stok_tersedia < OLD.stok_total THEN
