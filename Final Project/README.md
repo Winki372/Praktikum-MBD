@@ -12,7 +12,7 @@
 > Komponen Wajib Instalasi:
 > - ERD dan Relasi Basis Data
 > - Penjelasan Aturan Bisnis
-> - Storec Procedure Utama
+> - Stored Procedure Utama
 > - Stored Procedure Helper(minimal 3)
 > - Cursor
 > - Perulangan dan Percabangan(IF, CASE< LOOP)
