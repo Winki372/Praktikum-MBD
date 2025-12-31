@@ -1,5 +1,5 @@
 create procedute `sp_tampil_katalog_buku`(
-  in p_keyword
+  in p_keyword varchar(50)
 )
 begin
   select
