@@ -41,6 +41,6 @@ close cur_kembali
 select 
   p_id_anggotas as 'ID ANGGOTA',
   'Pengembalian Massal' as 'Jenis Transaksi',
-  concat('Rp. ', fromat(v_total_tagihan, 0)) as 'TOTAL DENDA YANG HARUS DIBAYAR',
+  concat('Rp. ', format(v_total_tagihan, 0)) as 'TOTAL DENDA YANG HARUS DIBAYAR',
   'SUKSES' as 'Status';
 end
