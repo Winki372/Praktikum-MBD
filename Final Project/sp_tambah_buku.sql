@@ -1,11 +1,11 @@
 create procedure `sp_tambah_buku`(
-  in p_id.buku varchar(100),
-  in p_judul.buku varchar(100),
+  in p_id_buku varchar(100),
+  in p_judul_buku varchar(100),
   in p_pengarang varchar(100),
   in p_penerbit varchar(100),
   in p_tahun year,
   in p_stok_awal int,
-  in p_id.genre_utama int,
+  in p_id_genre_utama int,
   in p_admin varchar(100),
 )
 begin
