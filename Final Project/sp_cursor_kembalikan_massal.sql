@@ -14,7 +14,7 @@ begin
     from peminjaman
     join detail_peminjaman on peminjaman.id_peminjaman = detail_peminjaman.id_peminjaman
     where peminjaman.id_anggota = p_id_anggota
-    and p.status_peminjaman = 'Dipinjam';
+    and peminjaman.status_peminjaman = 'Dipinjam';
 
   declare continue handler for not found set selesai = 1;
 
