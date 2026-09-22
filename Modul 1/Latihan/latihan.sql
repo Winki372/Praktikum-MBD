@@ -1,3 +1,4 @@
+#latihan
 create schema `mbdd_core`;
 
 #membuat tabel customers
