@@ -1,5 +1,5 @@
 #latihan
-create schema `mbdd_core`;
+create schema `mbd_core`;
 
 #membuat tabel customers
 create table `customers`(
